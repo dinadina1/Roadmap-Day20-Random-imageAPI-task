@@ -1,4 +1,4 @@
-const count = 400;
+const count = 100;
 const data = fetch(`https:/dog.ceo/api/breeds/image/random/${count}`);
 data
   .then((response) => response.json())
