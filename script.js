@@ -1,5 +1,5 @@
 // const count = 100;
-const data = fetch(`https:/dog.ceo/api/breeds/image/random/100`);
+const data = fetch('https:/dog.ceo/api/breeds/image/random/100');
 data
   .then((response) => response.json())
   .then((dogImage) => {
