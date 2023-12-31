@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  // Fetch 10 random dog images
+  // Fetch dog images
   const fetchDogImages = (count) => {
     const apiUrl = `https://dog.ceo/api/breeds/image/random/${count}`;
     return fetch(apiUrl)
