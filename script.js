@@ -1,6 +1,6 @@
 // const count = 100;
-const data = fetch('https:/dog.ceo/api/breeds/image/random/100');
-data
+ fetch('https:/dog.ceo/api/breeds/image/random/100')
+
   .then((response) => response.json())
   .then((dogImage) => {
     for (let i = 0; i < dogImage.message.length; i++) {
