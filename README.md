@@ -1,5 +1,5 @@
 <h1>Random Dog-Image API</h1>
-<p>This webpage is used to generate random dogs images.</p>
+<p>This webpage is used to generate random dogs images with Responsive.</p>
 <p>Every refresh of the page will load new images from API.</p>
 <p>I used Html, CSS, Bootstrap, Javascript Promise method using fetch API for developing this page.</p>
 <p>I attached Webpage Screenshots in below:</p>  <br>
