@@ -1,0 +1,24 @@
+.dog-image {
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+.row {
+    row-gap: 30px;
+}
+
+.body,
+.card-img {
+    background-color: rgb(9, 8, 8);
+}
+
+.card-img {
+    border: none;
+    border-radius: 30px;
+}
+
+.navbar__brand-title {
+    color: whitesmoke;
+    font-size: 40px;
+}
