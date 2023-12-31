@@ -40,7 +40,8 @@
 
 
 
-const count = 100;
+// const count = 100;
+function image(){
 const data = fetch('https:/dog.ceo/api/breeds/image/random/100');
 data
   .then((response) => response.json())
@@ -54,3 +55,6 @@ data
   .catch(() => {
     console.log("error");
   });
+
+}
+image();
