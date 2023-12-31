@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   // Fetch dog images
-  Promise.all(createImagePromises(100))
+  Promise.all(createImagePromises(50))
     .then(renderImages)
     .catch((error) => console.error("Error fetching dog images:", error));
 });
