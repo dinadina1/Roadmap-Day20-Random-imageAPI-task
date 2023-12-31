@@ -1,24 +1,25 @@
-/* .dog-image {
-    height: 100px;
-    width: 100px;
-    border: 1px solid;
-}
+ /* .dog-image {
+     height: 100px;
+    width: 100px; 
+    border: 1px solid; 
+ }  */
 
-.row {
+ .row {
     row-gap: 30px;
 }
 
-.body,
-.card-img {
+.body,.card-img {
     background-color: rgb(9, 8, 8);
 }
 
 .card-img {
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
+    max-height: 400px; 
+     max-width:100%;
 }
 
 .navbar__brand-title {
     color: whitesmoke;
     font-size: 40px;
-} */
+} 
